@@ -19,6 +19,10 @@ powershell.exe C:\DMRid\DMRid.ps1
 
 Files:
 CreateDMRidSchema.sql - Microsoft TSQL script that creates datase, table, and views
+
 DMRid.ps1 - Main script to run or schedule
+
 outdatatable.ps1 - Powershell function used to convert Powershell Objects to Powershell Datatable
+
 sql.ps1 - Usefull SQL powershell functions developed by moya034
+
