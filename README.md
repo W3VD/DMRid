@@ -1,5 +1,6 @@
 "# DMRid"
 
+Files:
 1. CreateDMRidSchema.sql - Microsoft TSQL script that creates datase, table, and views
 2. DMRid.ps1 - Main script to run or schedule
 3. outdatatable.ps1 - Powershell function used to convert Powershell Objects to Powershell Datatable
