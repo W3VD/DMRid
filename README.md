@@ -1,23 +1,19 @@
 "# DMRid"
-CreateDMRidSchema.sql - Microsoft TSQL script that creates datase, table, and views
 
-DMRid.ps1 - Main script to run or schedule
-
-outdatatable.ps1 - Powershell function used to convert Powershell Objects to Powershell Datatable
-
-sql.ps1 - Usefull SQL powershell functions developed by moya034
-
-
+1. CreateDMRidSchema.sql - Microsoft TSQL script that creates datase, table, and views
+2. DMRid.ps1 - Main script to run or schedule
+3. outdatatable.ps1 - Powershell function used to convert Powershell Objects to Powershell Datatable
+4. sql.ps1 - Usefull SQL powershell functions developed by moya034
 
 PreRequisites:
 1. Working install of Microsoft SQL Server (SQL Server Express is available for free from Microsoft's website)
 2. ProScan installed @ C:\ProScan. If not comment out lines 26,27,30,31
 
 Install:
-cd C:\
-git clone https://github.com/moya034/DMRid/
-mkdir C:\temp
-Run C:\DMRid\CreateDMRidSchema.sql in MS SQL Administrator
+1. cd C:\
+2. git clone https://github.com/moya034/DMRid/
+3. mkdir C:\temp
+4. Run C:\DMRid\CreateDMRidSchema.sql in MS SQL Administrator
 
 Usage:
 If you are running a networked instance of MS SQL Server edit the $server variable in DMRid.ps1 with the server's hostname.
