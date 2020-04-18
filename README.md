@@ -8,7 +8,7 @@ Files:
 
 PreRequisites:
 1. Working install of Microsoft SQL Server (SQL Server Express is available for free from Microsoft's website)
-2. ProScan installed @ C:\ProScan. If ProScan is not installed, comment out lines 26,27,30,31
+2. ProScan installed @ C:\ProScan. If ProScan is not installed, comment out lines 26,27,30,31 in DMRid.ps1
 3. If Using Networked SQL Server edit $server variable in DMRid.ps1
 4. If Using SQL Server Express, install on same computer where you will run the script
 
