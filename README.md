@@ -8,16 +8,12 @@
 PreRequisites:
 1. Working install of Microsoft SQL Server (SQL Server Express is available for free from Microsoft's website)
 2. ProScan installed @ C:\ProScan. If not comment out lines 26,27,30,31
+3. If Using Networked SQL Server edit $server variable in DMRid.ps1
+4. If Using SQL Server Express, install on same computer where you will run the script
 
 Install:
 1. cd C:\
 2. git clone https://github.com/moya034/DMRid/
 3. mkdir C:\temp
 4. Run C:\DMRid\CreateDMRidSchema.sql in MS SQL Administrator
-
-Usage:
-If you are running a networked instance of MS SQL Server edit the $server variable in DMRid.ps1 with the server's hostname.
-Otherwise, install SQL Server Express on the same computer that you will be running the script on.
-
-Run:
-powershell.exe C:\DMRid\DMRid.ps1
+5. powershell.exe C:\DMRid\DMRid.ps1
