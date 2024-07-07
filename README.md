@@ -14,7 +14,7 @@ PreRequisites:
 
 Install:
 1. cd C:\
-2. git clone https://github.com/moya034/DMRid
+2. git clone https://github.com/W3VD/DMRid
 3. mkdir C:\temp
 4. Run C:\DMRid\CreateDMRidSchema.sql in MS SQL Administrator
 5. powershell.exe C:\DMRid\DMRid.ps1
